@@ -37,6 +37,7 @@ public class AppTest
     	App b = new App();
     	this.assertEquals(10,a.maxi(10,5));
     	this.assertEquals(2,b.fact(5));
+    	this.assertEquals(4,b.fact(5));
        
     }
 }
